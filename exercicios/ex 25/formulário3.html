@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="formulario.php" method="get">
+        <p>
+            <label for="inome">nome</label>
+            <input type="text" name="nome" id="inome" placeholder="Nome completo " required>
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="media" id="imedia" placeholder="Digite sua média" step="0.1" required>
+        </p>
+        <p>
+            <label for="idata">periodo letivo</label>
+            <input type="month" name="data" id="idata" required >
+        </p>
+        <p>
+            <label for="idia">Dia da prova </label>
+            <input type="date" name="data" id="idia" required>
+        </p>
+        <p>
+            <label for="ihorario">Horário da prova</label>
+            <input type="time" name="horario" id="ihorario">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
